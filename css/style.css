@@ -155,3 +155,20 @@ th{
         margin-top: 10px;
     }
 }
+
+/*if(tela <= 450px){}*/
+@media (max-width: 450px){
+
+    h1{
+        font-size: 24px;
+    }
+
+    #header{
+        height: 200px;
+    }
+
+    #result input{
+        height: 45px;
+    }
+
+}
